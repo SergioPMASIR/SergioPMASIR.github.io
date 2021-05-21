@@ -1,0 +1,8 @@
+.izquierda{
+        background-color: rgb(51, 210, 216);
+}
+
+.derecha{
+    background-color: rgb(37, 140, 172);
+    text-align: end;
+}
