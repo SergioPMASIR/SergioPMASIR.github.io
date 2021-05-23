@@ -8,6 +8,7 @@ function gestionarFicheroXML(xmlDoc){
 			else {
 			capaVacia.innerHTML = capaVacia.innerHTML + "<p>" + libros[i].textContent + "</p>"
 		}
+			document.write(capaVacia)
 }
 }
 
