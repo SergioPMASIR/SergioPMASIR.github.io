@@ -14,4 +14,4 @@ function gestionarFicheroXML(xmlDoc){
 
 
 
-loadDocA("conversacion.xml","xml");
+loadDocA("animales.xml","xml");
