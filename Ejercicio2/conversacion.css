@@ -1,8 +1,7 @@
-.izquierda{
-        background-color: rgb(51, 210, 216);
+.rojo{
+        background-color: rojo;
 }
 
-.derecha{
-    background-color: rgb(37, 140, 172);
-    text-align: end;
+.verde{
+    background-color: verde;
 }
