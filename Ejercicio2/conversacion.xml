@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<conversacion>
-    <izquierda>¿Hola como estás?</izquierda>
-    <derecha>¿Bien y tu?</derecha>
-    <izquierda>Bueno he estado mejor</izquierda>
-    <derecha>¿Que te pasa?</derecha>
-    <izquierda>Que estoy sacando malas notas</izquierda>
-    <derecha>¡Vaya! Si quieres te puedo ayudar</derecha>
-    <izquierda>¿De verdad?</izquierda>
-    <derecha>¡Claro, cuando quieras quedamos!</derecha>
-    <izquierda>¿Mañana te viene bien?</izquierda>
-    <derecha>Sí, perfecto</derecha>
-</conversacion>
+<animales>
+    <timon>
+        <nombre>timon</nombre>
+        <tipo>mamifero</tipo>
+        <especie>comadreja</especie>
+        <edad>15</edad>
+    </timon>
+    <pumba>
+        <nombre>pumba</nombre>
+        <tipo>mamifero</tipo>
+        <especie>jabali</especie>
+        <edad>20</edad>
+    </pumba>
+</animales>
 
 
