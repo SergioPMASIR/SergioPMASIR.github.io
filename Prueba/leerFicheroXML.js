@@ -1,14 +1,17 @@
 function gestionarFicheroXML(xmlDoc){
 		let capaVacia = document.querySelector("#ficheroXML")
-		let libros = xmlDoc.querySelectorAll("libro")
-		for(let i=0; i<libros.length; i++){
-			if(i==2){
-		capaVacia.innerHTML = capaVacia.innerHTML + "<p class = 'amarillo'>" + libros[i].textContent + "</p>"
-		} 
-			else {
-			capaVacia.innerHTML = capaVacia.innerHTML + "<p>" + libros[i].textContent + "</p>"
-		}
-}
+		let animal = xmlDoc.querySelectorAll("animal")
+		let l = animal.length
+	
+		for(let i = 0; i<animal.length; i++){
+			if (l % 2 == 0) {
+		        capaVacia.innerHTML = capaVacia.innerHTML + "<p class='rojo'>" + animal[i].textContent + "</p>"
+			} else {
+			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='verde'>" + animal[i].textContent + "</p>"
+			}
+	}
 }
 
-loadDocA("libros.xml","xml");
+
+
+loadDocA("conversacion.xml","xml");
