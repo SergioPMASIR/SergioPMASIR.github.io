@@ -5,9 +5,9 @@ function gestionarFicheroXML(xmlDoc){
 	
 		for(let i = 0; i<animal.length; i++){
 			if(l % 2 = 0){
-		        capaVacia.innerHTML = capaVacia.innerHTML + "<p class='rojo'>" + animal[i].textContent + "</p">
+		        capaVacia.innerHTML = capaVacia.innerHTML + "<p class='rojo'>" + animal[i] + "</p">
 			} else {
-			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='verde'>" + animal[i].textContent + "</p>"
+			capaVacia.innerHTML = capaVacia.innerHTML + "<p class='verde'>" + animal[i] + "</p>"
 			}
 	}
 }
